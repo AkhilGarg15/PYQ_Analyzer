@@ -347,7 +347,7 @@ def login_form():
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
-        if username == "demo" and password == "pass":
+        if username == "demo" and password == "pass123":
             # Delete all PDFs from Upload folder
             upload_dir = os.path.join(os.getcwd(), "Upload")
             if os.path.exists(upload_dir):
